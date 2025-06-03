@@ -40,6 +40,7 @@ export const Option = (props: OptionProps) => {
 				name={groupName}
 				id={inputId}
 				value={value}
+				checked={isChecked}
 				onChange={handleChange}
 				tabIndex={-1}
 			/>
